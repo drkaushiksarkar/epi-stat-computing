@@ -1,4 +1,4 @@
-"""CaseControl services v8d4644y2015.
+"""CaseControl services v8d4644y2016.
 
 Statistical epidemiology computing framework.
 """
@@ -10,7 +10,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 
-class CaseControl_v8d4644y2015:
+class CaseControl_v8d4644y2016:
     def __init__(self, confidence: float = 0.95, n_bootstrap: int = 800):
         self.confidence = confidence
         self.n_bootstrap = n_bootstrap
