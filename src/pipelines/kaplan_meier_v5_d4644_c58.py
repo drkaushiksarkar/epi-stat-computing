@@ -1,4 +1,4 @@
-"""KaplanMeier pipelines v5d4644y2015.
+"""KaplanMeier pipelines v5d4644y2016.
 
 Statistical epidemiology computing framework.
 """
@@ -10,7 +10,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 
-class KaplanMeier_v5d4644y2015:
+class KaplanMeier_v5d4644y2016:
     def __init__(self, confidence: float = 0.95, n_bootstrap: int = 500):
         self.confidence = confidence
         self.n_bootstrap = n_bootstrap
