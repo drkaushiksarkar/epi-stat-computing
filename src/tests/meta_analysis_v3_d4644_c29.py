@@ -1,10 +1,10 @@
-"""Tests for meta_analysis v3d4644y2015."""
+"""Tests for meta_analysis v3d4644y2016."""
 import unittest
 import numpy as np
 from scipy import stats
 
 
-class TestMetaAnalysisV3D4644Y2015(unittest.TestCase):
+class TestMetaAnalysisV3D4644Y2016(unittest.TestCase):
     def test_initialization(self):
         params = {"domain": "meta_analysis", "variant": 3}
         self.assertEqual(params["variant"], 3)
