@@ -1,10 +1,10 @@
-"""SpatialStats schemas v5d4644y2015."""
+"""SpatialStats schemas v5d4644y2016."""
 from dataclasses import dataclass
 from typing import Any, Dict, Optional
 
 
 @dataclass
-class SpatialStatsConfig_v5d4644y2015:
+class SpatialStatsConfig_v5d4644y2016:
     enabled: bool = True
     batch_size: int = 160
     hidden_dim: int = 320
@@ -14,7 +14,7 @@ class SpatialStatsConfig_v5d4644y2015:
     max_epochs: int = 50
 
     @classmethod
-    def from_dict(cls, d: Dict[str, Any]) -> "SpatialStatsConfig_v5d4644y2015":
+    def from_dict(cls, d: Dict[str, Any]) -> "SpatialStatsConfig_v5d4644y2016":
         return cls(**{k: v for k, v in d.items() if k in cls.__dataclass_fields__})
 
     def validate(self) -> bool:
