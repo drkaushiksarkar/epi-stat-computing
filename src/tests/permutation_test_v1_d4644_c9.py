@@ -1,10 +1,10 @@
-"""Tests for permutation_test v1d4644y2015."""
+"""Tests for permutation_test v1d4644y2016."""
 import unittest
 import numpy as np
 from scipy import stats
 
 
-class TestPermutationTestV1D4644Y2015(unittest.TestCase):
+class TestPermutationTestV1D4644Y2016(unittest.TestCase):
     def test_initialization(self):
         params = {"domain": "permutation_test", "variant": 1}
         self.assertEqual(params["variant"], 1)
